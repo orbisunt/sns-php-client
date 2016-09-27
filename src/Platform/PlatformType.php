@@ -17,7 +17,7 @@ class PlatformType
     const UKNOW = 'default';
     const AUTO = 'auto';
 
-    public function isValidValue($value)
+    public static function isValidValue($value)
     {
         return $value == static::ANDROID ||
                $value == static::IOS ||
